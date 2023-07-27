@@ -1,0 +1,283 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV template</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Montserrat font-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/feather-icons@4.28.0/dist/feather.min.js"></script>
+  </head>
+  <body>   
+    <section>
+      <!-- MOBILE NAVIGATION -->
+      <div class="w3-container w3-padding-16 w3-border-bottom w3-hide-medium w3-hide-large">
+        <a href="#home" class="w3-bar-item w3-button w3-hover-none"></a>
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="toggleNavigation()">&#9776;</a>
+      </div>
+      <div id="mobile-nav" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-sticky">
+        <a href="#about" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">ABOUT</a>
+        <a href="#resume" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">CV</a>
+        </div>
+
+      <!-- SOCIAL SECTION -->
+      <section class="image-section w3-quarter w3-fixed w3-padding-small">
+        <!--IMAGE/AVATAR-->
+        <img src="9104.jpg" class="w3-circle w3-border w3-border-sand" style="border-width: 3px !important;"/>
+        <!--SCIAL NETWORK BUTTONS-->
+        <p style="color:white; margin-top: 50px;"> Anna Poulton </p>
+        <p style="color:white;"> Email: ajp374@cornell.edu </p>
+        <div class="w3-container w3-padding-16">
+          <a href="https://orcid.org/0000-0003-3066-365X" class="w3-green w3-hover-green w3-button w3-round-small w3-hover-blue w3-padding-large margin-bottom: 25px;" target="_blank">
+            <span class="">ORCID</span>
+          </a>
+          </div>
+                  <div class="w3-container w3-padding-16">
+          <a href="https://www.linkedin.com/in/anna-poulton-b4053a19b/" class="w3-green w3-hover-green w3-button w3-round-small w3-hover-blue w3-padding-large" target="_blank">
+            <span class="">LinkedIn</span>
+          </a>
+        </div>
+                          <div class="w3-container w3-padding-16">
+          <a href="https://www.cam.cornell.edu/research/grad-students/anna-poulton" class="w3-green w3-hover-green w3-button w3-round-small w3-hover-blue w3-padding-large" target="_blank">
+            <span class="">Cornell</span>
+          </a>
+        </div>
+        
+      </section>
+
+      <!--CV CONTENT SECTION-->
+      <section class="w3-threequarter w3-padding-large w3-right">
+        <!--DESKTOP NAVIGATION-->
+        <div class="w3-container w3-padding-large w3-border-bottom w3-hide-small">
+
+          <a href="#resume" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">CV</a>
+          <a href="#about" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">ABOUT</a>
+        </div>
+        <div class="content-container w3-margin-top-2">
+          <!--HOME SECTION-->
+          <div id="home" class="home w3-container w3-margin-top-4 w3-cursive">
+
+          </div>
+
+          <!--ABOUT SECTION-->
+          <div id="about" class="w3-container w3-margin-top-20-percent w3-cursive w3-large">
+            <h2 class="w3-border-bottom w3-border-green" style="border-width: 3px !important;">About Me</h2>
+            <p class="w3-margin-top-2"> 
+              I am a PhD student in Applied Mathematics at Cornell University, advised by Dr. Stephen Ellner.
+               My research is focused on developing and utilizing mathematical models to inform ecological management and conservation.
+                I use methods from dynamical systems, optimization, and statistics in my work to study ecological systems.
+           </p>
+ <p class="w3-margin-top-2"> 
+              In a <a href="https://doi.org/10.1139/cjfas-2022-0198">recently published work</a>, we used a multi-patch fisheries model to investigate
+              the performance of dynamic spatial closures under fishing-mediated habitat damage. We found that dynamic closures can achieve
+               greater harvests and more habitat protection than fixed closures in many scenarios, especially when fish respond strongly to habitat quality.
+           </p>
+
+           <p>
+            Currently I am working on projects focused on (1) Bayesian spatial survival analysis, and (2) the
+            role of behavior in host-pathogen dynamics. 
+            </p>
+          </div>
+
+
+<br>
+<br>
+
+          <!--RESUME-->
+          <div id="resume" class="w3-container w3-margin-top-17-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-green" style="border-width: 3px !important;">CV</h2>
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+
+
+            
+              <!---EDUCATION SECTION-->
+              <div class="w3-margin-top-2 w3-cursive">
+                <h3 class="w3-border-green"><u>Education</u></h3>
+                  <h4>Cornell University, Ph.D., Applied Mathematics </h4>
+                  <p style="margin-left: 25px;"> Aug. 2019 - Present </p>
+                  <p style="margin-left: 25px;"> Advisor: Dr. Stephen Ellner  </p>
+                  <h4>Illinois Wesleyan University, B.S., Mathematics & Biology Double Major</h4>
+                  <p style="margin-left: 25px;">Aug. 2015 - May 2019</p>
+                  <p style="margin-left: 25px;"> Advisor: Dr. William Jaeckle </p>
+              </div>
+
+<!--INTERESTS SECTION-->
+
+            <div class="w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-green"><u>Publications</u></h3>  
+                  <p style="margin-left: 25px;"> Anna J. Poulton, Suresh A. Sethi, Stephen P. Ellner, and T. Scott Smeltz. 2023. 
+                    Optimal dynamic spatial closures can improve fishery yield and reduce fishing-induced habitat damage.
+                     <i>Canadian Journal of Fisheries and Aquatic Sciences.</i> 80(6): 893-912. 
+                     <a href="https://doi.org/10.1139/cjfas-2022-0198">https://doi.org/10.1139/cjfas-2022-0198</a> </p>
+                     <ul> 
+                      <li> Editor's Choice Selection, June 2023 </li>
+                     </ul>
+
+            </div>
+            
+            <!--INTERESTS SECTION-->
+            <div class="w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-green"><u>Presentations</u></h3>
+                <ul>
+                  <li>“Optimal dynamic spatial closures can improve fishery yield and reduce fishing-induced habitat damage”</li>
+                    <ul> 
+                      <li> Aug. 2022, Ecological Society of America Annual Meeting (Montréal, Québec, Canada), Oral Presentation	
+</li>
+                      </ul> 
+
+                  <li>“Modeling Movements and Habitat Use for over 100 Reef-Dwelling Marine Turtles in the Mariana Archipelago”</li>
+                    <ul> 
+                      <li>Feb. 2019, 39th Annual International Sea Turtle Symposium (Charleston, SC), Oral Presentation	</li>
+                      <li>Sep. 2018, Illinois Wesleyan University (Bloomington, IL), Oral Presentation	</li>
+                      <li>Aug. 2018, Science and Education Symposium (NOAA Silver Spring Campus, Silver Spring, MD), Oral Presentation	</li>
+                      <li>Jul. 2018, IRC Summer Intern Symposium, NOAA Inouye Regional Center (Honolulu, HI), Oral Presentation	</li>
+                      
+                      </ul> 
+
+
+
+                      <li>“A New Terrestrial-Breeding Frog (Strabomantidae: Pristimantis) from Northern Peru” </li>
+                    <ul> 
+                      <li>Apr. 2019, John Wesley Powell Student Conference (Illinois Wesleyan University, Bloomingto, IL), Oral Presentation	</li>
+                      <li>Apr. 2018, John Wesley Powell Student Conference (Illinois Wesleyan University, Bloomington, IL), Poster Presentation	</li>
+                      </ul> 
+
+                      <li>“The effect of habitat degradation and invasive species on native tadpoles and grassland birds” </li>
+                    <ul> 
+                      <li>Nov. 2016, Illinois Wesleyan University (Bloomington, IL), Oral Presentation 	</li>
+                      </ul> 
+                </ul>
+            </div>
+
+
+                                    <!--INTERESTS SECTION-->
+            <div class="w3-margin-top-2 w3-cursive">
+                <h3 class="w3-border-green"><u>Teaching Experience</u></h3>
+                  <h4>Cornell University Mathematics Dept. Teacher's Assistant</h4>
+                                  <ul>
+                  <li> The Art & Science of Mathematical Modeling (MATH 3610; Fall 2020) </li>
+                  <li> Basic Probability (MATH 4710; Spring 2021)</li>
+                  <li> Stochastic Processes (MATH 4740; Spring 2022, Spring 2023)</li>
+                </ul>
+                  <h4>Illinois Wesleyan University Mathematics Dept. Teacher's Assistant</h4>
+                                  <ul>
+                  <li>Finite Mathematics (MATH 110; 2016-17)</li>
+                  <li>Techniques of Mathematical Proof (MATH 200; 2017-18 and Spring 2019) </li>
+                  <li>Mathematical Modeling (MATH 145; Fall 2018)</li>
+                </ul>
+            </div>
+
+<br>
+
+              <!--EMPLOYMENT HISTORY SECTION-->
+              <h3 class="w3-border-green"><u>Undergraduate Research Experiences</u></h3>
+              <div class="">
+                <h4>Ernest F. Hollings Research Intern, NOAA Fisheries PIFSC</h4>
+                <p>May 2018 - July 2018</p>
+                <p>Supervisors: Dr. Summer Martin & Dr. T. Todd Jones</p>
+                <ul>
+                  <li>Analyzed marine turtle movement paths and habitat use from fine-scale satellite tracking data</li>
+                  <li>Created a user-friendly application in R to concisely present these results </li>
+                  <li>Assisted with hands-on lab work, including several sea turtle necropsies and stranding assessments</li>
+                </ul>
+              </div>
+              <div class="">
+                <h4>Undergraduate Researcher, Illinois Wesleyan University</h4>
+                <p>Aug. 2017 - May 2019 </p>
+                <p> Supervising Faculty: Dr. Edgar Lehr </p>
+                <ul>
+                  <li>Wrote a detailed description of a new species of frog</li>
+                  <li>Worked with preserved specimens to compile datasets of measurements and create accurate scientific drawings</li>
+                </ul>
+              </div>
+              <div class="">
+                <h4>Grand River Grasslands Field Research Intern</h4>
+                <p>Summers 2016 & 2017</p>
+                <p> Supervisor: Timothy M. Swartz, University of Illinois </p>
+                
+                <ul>
+                  <li>Cooperated with a team of graduate students to study amphibian, bird, and arthropod populations in southern Iowa</li>
+                  <li>Worked hands-on to collect data by sampling local wildlife and vegetation</li>
+                </ul>
+              </div>
+            </div>
+
+           
+ 
+
+
+
+            
+
+            <!--INTERESTS SECTION-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-green"><u>Scholarships & Honors</u></h3>
+                <ul>
+                  <li>Editor's Choice Selection, Canadian Journal of Fisheries and Aquatic Sciences	(June 2023)</li>
+                  <li>Member of the Research Training Group: Dynamics, Probability, and Partial 
+Differential Equations in Pure and Applied Mathematics, DMS-1645643	(2021 - 2022) </li>
+                  <li>Cornell Graduate School Fellowship, 2019 - 2020</li>
+                  <li>Ernest F. Hollings Undergraduate Scholarship, NOAA Dept. of Education	(2017 - 2019)</li>
+                  <li>
+The Harold C. Hodge President's Club Award in Natural Science and Mathematics	(2019)</li>
+                  <li>Award for Leadership in the Department of Mathematics, Illinois Wesleyan University	(2019) </li>
+                  <li>Award for Service to the Department of Mathematics, Illinois Wesleyan University	(2017, 2018)</li>
+                  <li>Dean's List, Illinois Wesleyan University	(2015 - 2019)</li>
+                  <li>Illinois Wesleyan University National Merit College-Sponsored Scholarship (2015)</li>
+                </ul>
+            </div>
+            
+
+
+                        <!--INTERESTS SECTION-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-green"><u>Activities & Memberships</u></h3>
+                <ul>
+                  <li>Mentor for the CAM First-Year Mentoring Program	(2020 – 2023)</li>
+                  <li>Directed Reading Program Mentor	(2021, 2022)</li>
+                  <li>Judge for the Annual Cornell Mathematical Contest in Modeling (2020, 2021)</li>
+                  <li>Pi Mu Epsilon (inducted May 2017, IWU Chapter Vice President 2017-18, President 2018-19)	</li>
+                  <li>Association for Women in Mathematics (IWU Chapter President 2017-19)</li>
+                  <li>Beta Beta Beta (inducted May 2018)</li>
+                  <li>Phi Beta Kappa (inducted May 2018)</li>
+                </ul>
+            </div>
+
+
+<br>
+<br>
+<p> (updated June 29 2023)  </p>
+
+        <!--FOOTER-->
+        <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+        <footer class="w3-container w3-border-top w3-center w3-margin-top-4">
+           <p class="w3-small">This website was made with W3schools Spaces. Make your own free website today!</p>
+          <a class="w3-button w3-round-xxlarge w3-small w3-light-grey" href="https://www.w3schools.com/spaces" target="_blank">Start now</a> 
+        <!-- End footer -->
+        </footer>
+
+        <!--END OF CV SECTION-->
+      </section>      
+    </section>
+    <script>
+      // Function to toggle mobile navigation
+      function toggleNavigation() {
+        let nav = document.getElementById("mobile-nav");
+        if (nav.classList.contains('w3-show')) {
+          nav.classList.remove('w3-show');
+        } else { 
+          nav.classList.add('w3-show');
+        }
+      }
+    </script>
+    <script>
+      // Script to load feather icons
+      feather.replace()
+    </script>
+  </body>
+</html>
